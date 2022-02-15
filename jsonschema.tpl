@@ -29,10 +29,11 @@
             "type":"array" ,
             "items": {
                 "type": "object",
+                "additionalProperties":false,
                 "properties":{
                 {%- for code, subfield in subfields.items() %}
                     "{{ code }}": {
-                    "type": "string"
+                        "type": "string"
                     }{{ ',' if not loop.last }}
                 {%- endfor %}
                 }
