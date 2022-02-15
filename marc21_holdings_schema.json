@@ -1,0 +1,1949 @@
+{
+    "001": {
+        "fixed": true,
+        "name": "Control Number",
+        "positions": [],
+        "repeatable": false
+    },
+    "003": {
+        "fixed": true,
+        "name": "Control Number Identifier",
+        "positions": [],
+        "repeatable": false
+    },
+    "005": {
+        "fixed": true,
+        "name": "Date and Time of Latest Transaction",
+        "positions": [],
+        "repeatable": false
+    },
+    "010": {
+        "fixed": false,
+        "indicators": false,
+        "name": "Library of Congress Control Number",
+        "repeatable": false,
+        "subfields": {
+            "8": {
+                "name": "Field link and sequence number",
+                "repeatable": true,
+                "static": false
+            },
+            "a": {
+                "name": "LC control number",
+                "repeatable": false,
+                "static": false
+            },
+            "b": {
+                "name": "NUCMC control number",
+                "repeatable": true,
+                "static": false
+            },
+            "z": {
+                "name": "Canceled or invalid LC control number",
+                "repeatable": true,
+                "static": false
+            }
+        }
+    },
+    "014": {
+        "fixed": false,
+        "indicators": false,
+        "name": "Linkage Number",
+        "repeatable": true,
+        "subfields": {
+            "6": {
+                "name": "Linkage",
+                "repeatable": false,
+                "static": false
+            },
+            "a": {
+                "name": "Linkage number",
+                "repeatable": false,
+                "static": false
+            },
+            "b": {
+                "name": "Source of number",
+                "repeatable": false,
+                "static": false
+            },
+            "z": {
+                "name": "Canceled or invalid linkage number",
+                "repeatable": true,
+                "static": false
+            }
+        }
+    },
+    "016": {
+        "fixed": false,
+        "indicators": false,
+        "name": "National Bibliographic Agency Control Number",
+        "repeatable": true,
+        "subfields": {
+            "2": {
+                "name": "Source",
+                "repeatable": false,
+                "static": false
+            },
+            "8": {
+                "name": "Field link and sequence number",
+                "repeatable": true,
+                "static": false
+            },
+            "a": {
+                "name": "Record control number",
+                "repeatable": false,
+                "static": false
+            },
+            "z": {
+                "name": "Canceled or invalid control number",
+                "repeatable": true,
+                "static": false
+            }
+        }
+    },
+    "017": {
+        "fixed": false,
+        "indicators": false,
+        "name": "Copyright or Legal Deposit Number",
+        "repeatable": true,
+        "subfields": {
+            "2": {
+                "name": "Source",
+                "repeatable": false,
+                "static": false
+            },
+            "6": {
+                "name": "Linkage",
+                "repeatable": false,
+                "static": false
+            },
+            "8": {
+                "name": "Field link and sequence number",
+                "repeatable": true,
+                "static": false
+            },
+            "a": {
+                "name": "Copyright or legal deposit number",
+                "repeatable": true,
+                "static": false
+            },
+            "b": {
+                "name": "Assigning agency",
+                "repeatable": false,
+                "static": false
+            },
+            "d": {
+                "name": "Date",
+                "repeatable": false,
+                "static": false
+            },
+            "i": {
+                "name": "Display text",
+                "repeatable": false,
+                "static": false
+            },
+            "z": {
+                "name": "Canceled/invalid copyright or legal deposit number",
+                "repeatable": true,
+                "static": false
+            }
+        }
+    },
+    "020": {
+        "fixed": false,
+        "indicators": {
+            "1": {
+                "name": "Undefined",
+                "values": {
+                    "#": "Undefined"
+                }
+            },
+            "2": {
+                "name": "Undefined",
+                "values": {
+                    "#": "Undefined"
+                }
+            }
+        },
+        "name": "International Standard Book Number",
+        "repeatable": true,
+        "subfields": {
+            "6": {
+                "name": "Linkage",
+                "repeatable": false,
+                "static": false
+            },
+            "8": {
+                "name": "Field link and sequence number",
+                "repeatable": true,
+                "static": false
+            },
+            "a": {
+                "name": "International Standard Book Number",
+                "repeatable": false,
+                "static": false
+            },
+            "c": {
+                "name": "Terms of availability",
+                "repeatable": false,
+                "static": false
+            },
+            "q": {
+                "name": "Qualifying information",
+                "repeatable": true,
+                "static": false
+            },
+            "z": {
+                "name": "Canceled/invalid ISBN",
+                "repeatable": true,
+                "static": false
+            }
+        }
+    },
+    "022": {
+        "fixed": false,
+        "indicators": false,
+        "name": "International Standard Serial Number",
+        "repeatable": true,
+        "subfields": {
+            "6": {
+                "name": "Linkage",
+                "repeatable": false,
+                "static": false
+            },
+            "8": {
+                "name": "Field link and sequence number",
+                "repeatable": true,
+                "static": false
+            },
+            "a": {
+                "name": "International Standard Serial Number",
+                "repeatable": false,
+                "static": false
+            },
+            "l": {
+                "name": "ISSN-L",
+                "repeatable": false,
+                "static": false
+            },
+            "m": {
+                "name": "Canceled ISSN-L",
+                "repeatable": true,
+                "static": false
+            },
+            "y": {
+                "name": "Incorrect ISSN",
+                "repeatable": true,
+                "static": false
+            },
+            "z": {
+                "name": "Canceled ISSN",
+                "repeatable": true,
+                "static": false
+            }
+        }
+    },
+    "024": {
+        "fixed": false,
+        "indicators": {
+            "1": {
+                "name": "Type of standard number or code",
+                "values": {
+                    "0": "International Standard Recording Code",
+                    "1": "Universal Product Code",
+                    "2": "International Standard Music Number",
+                    "3": "International Article Number",
+                    "4": "Serial Item and Contribution Identifier",
+                    "7": "Source specified in subfield $2",
+                    "8": "Unspecified type of standard number or code"
+                }
+            },
+            "2": {
+                "name": "Difference indicator",
+                "values": {
+                    "#": "No information provided",
+                    "0": "No difference",
+                    "1": "Difference"
+                }
+            }
+        },
+        "name": "Other Standard Identifier",
+        "repeatable": true,
+        "subfields": {
+            "2": {
+                "name": "Source of number or code",
+                "repeatable": false,
+                "static": false
+            },
+            "6": {
+                "name": "Linkage",
+                "repeatable": false,
+                "static": false
+            },
+            "8": {
+                "name": "Field link and sequence number",
+                "repeatable": true,
+                "static": false
+            },
+            "a": {
+                "name": "Standard number or code",
+                "repeatable": false,
+                "static": false
+            },
+            "c": {
+                "name": "Terms of availability",
+                "repeatable": false,
+                "static": false
+            },
+            "d": {
+                "name": "Additional codes following the standard number or code",
+                "repeatable": false,
+                "static": false
+            },
+            "q": {
+                "name": "Qualifying information",
+                "repeatable": true,
+                "static": false
+            },
+            "z": {
+                "name": "Canceled/invalid standard number or code",
+                "repeatable": true,
+                "static": false
+            }
+        }
+    },
+    "027": {
+        "fixed": false,
+        "indicators": {
+            "1": {
+                "name": "Undefined",
+                "values": {
+                    "#": "Undefined"
+                }
+            },
+            "2": {
+                "name": "Undefined",
+                "values": {
+                    "#": "Undefined"
+                }
+            }
+        },
+        "name": "Standard Technical Report Number",
+        "repeatable": true,
+        "subfields": {
+            "6": {
+                "name": "Linkage",
+                "repeatable": false,
+                "static": false
+            },
+            "8": {
+                "name": "Field link and sequence number",
+                "repeatable": true,
+                "static": false
+            },
+            "a": {
+                "name": "Standard Technical Report Number",
+                "repeatable": false,
+                "static": false
+            },
+            "q": {
+                "name": "Qualifying information",
+                "repeatable": true,
+                "static": false
+            },
+            "z": {
+                "name": "Canceled/invalid STRN",
+                "repeatable": true,
+                "static": false
+            }
+        }
+    },
+    "030": {
+        "fixed": false,
+        "indicators": false,
+        "name": "CODEN Designation",
+        "repeatable": false,
+        "subfields": {
+            "6": {
+                "name": "Linkage",
+                "repeatable": false,
+                "static": false
+            },
+            "8": {
+                "name": "Field link and sequence number",
+                "repeatable": true,
+                "static": false
+            },
+            "a": {
+                "name": "CODEN",
+                "repeatable": false,
+                "static": false
+            },
+            "z": {
+                "name": "Canceled/invalid CODEN",
+                "repeatable": true,
+                "static": false
+            }
+        }
+    },
+    "035": {
+        "fixed": false,
+        "indicators": false,
+        "name": "System Control Number",
+        "repeatable": true,
+        "subfields": {
+            "6": {
+                "name": "Linkage",
+                "repeatable": false,
+                "static": false
+            },
+            "8": {
+                "name": "Field link and sequence number",
+                "repeatable": true,
+                "static": false
+            },
+            "a": {
+                "name": "System control number",
+                "repeatable": false,
+                "static": false
+            },
+            "z": {
+                "name": "Canceled or invalid control number",
+                "repeatable": true,
+                "static": false
+            }
+        }
+    },
+    "040": {
+        "fixed": false,
+        "indicators": false,
+        "name": "Record Source",
+        "repeatable": false,
+        "subfields": {
+            "6": {
+                "name": "Linkage",
+                "repeatable": false,
+                "static": false
+            },
+            "8": {
+                "name": "Field link and sequence number",
+                "repeatable": true,
+                "static": false
+            },
+            "a": {
+                "name": "Original cataloging agency",
+                "repeatable": false,
+                "static": false
+            },
+            "b": {
+                "name": "Language of cataloging",
+                "repeatable": false,
+                "static": false
+            },
+            "c": {
+                "name": "Transcribing agency",
+                "repeatable": false,
+                "static": false
+            },
+            "d": {
+                "name": "Modifying agency",
+                "repeatable": true,
+                "static": false
+            }
+        }
+    },
+    "066": {
+        "fixed": false,
+        "indicators": false,
+        "name": "Character Sets Present",
+        "repeatable": false,
+        "subfields": {
+            "a": {
+                "name": "Primary G0 character set",
+                "repeatable": false,
+                "static": false
+            },
+            "b": {
+                "name": "Primary G1 character set",
+                "repeatable": false,
+                "static": false
+            },
+            "c": {
+                "name": "Alternate G0 or G1 character set",
+                "repeatable": true,
+                "static": false
+            }
+        }
+    },
+    "337": {
+        "fixed": false,
+        "indicators": {
+            "1": {
+                "name": "Undefined",
+                "values": {
+                    "#": "Undefined"
+                }
+            },
+            "2": {
+                "name": "Undefined",
+                "values": {
+                    "#": "Undefined"
+                }
+            }
+        },
+        "name": "Media Type",
+        "repeatable": true,
+        "subfields": {
+            "0": {
+                "name": "Authority record control number or standard number",
+                "repeatable": true,
+                "static": false
+            },
+            "2": {
+                "name": "Source",
+                "repeatable": false,
+                "static": false
+            },
+            "3": {
+                "name": "Materials specified",
+                "repeatable": false,
+                "static": false
+            },
+            "6": {
+                "name": "Linkage",
+                "repeatable": false,
+                "static": false
+            },
+            "8": {
+                "name": "Field link and sequence number",
+                "repeatable": true,
+                "static": false
+            },
+            "a": {
+                "name": "Media type term",
+                "repeatable": true,
+                "static": false
+            },
+            "b": {
+                "name": "Media type code",
+                "repeatable": true,
+                "static": false
+            }
+        }
+    },
+    "338": {
+        "fixed": false,
+        "indicators": {
+            "1": {
+                "name": "Undefined",
+                "values": {
+                    "#": "Undefined"
+                }
+            },
+            "2": {
+                "name": "Undefined",
+                "values": {
+                    "#": "Undefined"
+                }
+            }
+        },
+        "name": "Carrier Type",
+        "repeatable": true,
+        "subfields": {
+            "0": {
+                "name": "Authority record control number or standard number",
+                "repeatable": true,
+                "static": false
+            },
+            "2": {
+                "name": "Source",
+                "repeatable": false,
+                "static": false
+            },
+            "3": {
+                "name": "Materials specified",
+                "repeatable": false,
+                "static": false
+            },
+            "6": {
+                "name": "Linkage",
+                "repeatable": false,
+                "static": false
+            },
+            "8": {
+                "name": "Field link and sequence number",
+                "repeatable": true,
+                "static": false
+            },
+            "a": {
+                "name": "Carrier type term",
+                "repeatable": true,
+                "static": false
+            },
+            "b": {
+                "name": "Carrier type code",
+                "repeatable": true,
+                "static": false
+            }
+        }
+    },
+    "506": {
+        "fixed": false,
+        "indicators": false,
+        "name": "Restrictions on Access Note",
+        "repeatable": true,
+        "subfields": {
+            "2": {
+                "name": "Source of term",
+                "repeatable": false,
+                "static": false
+            },
+            "3": {
+                "name": "Materials specified",
+                "repeatable": false,
+                "static": false
+            },
+            "5": {
+                "name": "Institution to which field applies",
+                "repeatable": false,
+                "static": false
+            },
+            "6": {
+                "name": "Linkage",
+                "repeatable": false,
+                "static": false
+            },
+            "8": {
+                "name": "Field link and sequence number",
+                "repeatable": true,
+                "static": false
+            },
+            "a": {
+                "name": "Terms governing access",
+                "repeatable": false,
+                "static": false
+            },
+            "b": {
+                "name": "Jurisdiction",
+                "repeatable": true,
+                "static": false
+            },
+            "c": {
+                "name": "Physical access provisions",
+                "repeatable": true,
+                "static": false
+            },
+            "d": {
+                "name": "Authorized users",
+                "repeatable": true,
+                "static": false
+            },
+            "e": {
+                "name": "Authorization",
+                "repeatable": true,
+                "static": false
+            },
+            "f": {
+                "name": "Standardized terminology for access restriction",
+                "repeatable": true,
+                "static": false
+            },
+            "u": {
+                "name": "Uniform Resource Identifier",
+                "repeatable": true,
+                "static": false
+            }
+        }
+    },
+    "538": {
+        "fixed": false,
+        "indicators": false,
+        "name": "System Details Note",
+        "repeatable": true,
+        "subfields": {
+            "3": {
+                "name": "Materials specified",
+                "repeatable": false,
+                "static": false
+            },
+            "5": {
+                "name": "Institution to which field applies",
+                "repeatable": true,
+                "static": false
+            },
+            "6": {
+                "name": "Linkage",
+                "repeatable": false,
+                "static": false
+            },
+            "8": {
+                "name": "Field link and sequence number",
+                "repeatable": true,
+                "static": false
+            },
+            "a": {
+                "name": "System details note",
+                "repeatable": false,
+                "static": false
+            },
+            "i": {
+                "name": "Display text",
+                "repeatable": false,
+                "static": false
+            },
+            "u": {
+                "name": "Uniform Resource Identifier",
+                "repeatable": true,
+                "static": false
+            }
+        }
+    },
+    "541": {
+        "fixed": false,
+        "indicators": false,
+        "name": "Immediate Source of Acquisition Note",
+        "repeatable": true,
+        "subfields": {
+            "3": {
+                "name": "Materials specified",
+                "repeatable": false,
+                "static": false
+            },
+            "5": {
+                "name": "Institution to which field applies",
+                "repeatable": false,
+                "static": false
+            },
+            "6": {
+                "name": "Linkage",
+                "repeatable": false,
+                "static": false
+            },
+            "8": {
+                "name": "Field link and sequence number",
+                "repeatable": true,
+                "static": false
+            },
+            "a": {
+                "name": "Source of acquisition",
+                "repeatable": false,
+                "static": false
+            },
+            "b": {
+                "name": "Address",
+                "repeatable": false,
+                "static": false
+            },
+            "c": {
+                "name": "Method of acquisition",
+                "repeatable": false,
+                "static": false
+            },
+            "d": {
+                "name": "Date of acquisition",
+                "repeatable": false,
+                "static": false
+            },
+            "e": {
+                "name": "Accession number",
+                "repeatable": false,
+                "static": false
+            },
+            "f": {
+                "name": "Owner",
+                "repeatable": false,
+                "static": false
+            },
+            "h": {
+                "name": "Purchase price",
+                "repeatable": false,
+                "static": false
+            },
+            "n": {
+                "name": "Extent",
+                "repeatable": true,
+                "static": false
+            },
+            "o": {
+                "name": "Type of unit",
+                "repeatable": true,
+                "static": false
+            }
+        }
+    },
+    "561": {
+        "fixed": false,
+        "indicators": {
+            "1": {
+                "name": "Privacy",
+                "values": {
+                    "#": "No information provided",
+                    "0": "Private",
+                    "1": "Not private"
+                }
+            },
+            "2": {
+                "name": "Undefined",
+                "values": {
+                    "#": "Undefined"
+                }
+            }
+        },
+        "name": "Ownership and Custodial History",
+        "repeatable": true,
+        "subfields": {
+            "3": {
+                "name": "Materials specified",
+                "repeatable": false,
+                "static": false
+            },
+            "5": {
+                "name": "Institution to which field applies",
+                "repeatable": false,
+                "static": false
+            },
+            "6": {
+                "name": "Linkage",
+                "repeatable": false,
+                "static": false
+            },
+            "8": {
+                "name": "Field link and sequence number",
+                "repeatable": true,
+                "static": false
+            },
+            "a": {
+                "name": "History",
+                "repeatable": false,
+                "static": false
+            },
+            "u": {
+                "name": "Uniform Resource Identifier",
+                "repeatable": true,
+                "static": false
+            }
+        }
+    },
+    "562": {
+        "fixed": false,
+        "indicators": false,
+        "name": "Copy and Version Identification Note",
+        "repeatable": true,
+        "subfields": {
+            "3": {
+                "name": "Materials specified",
+                "repeatable": false,
+                "static": false
+            },
+            "5": {
+                "name": "Institution to which field applies",
+                "repeatable": false,
+                "static": false
+            },
+            "6": {
+                "name": "Linkage",
+                "repeatable": false,
+                "static": false
+            },
+            "8": {
+                "name": "Field link and sequence number",
+                "repeatable": true,
+                "static": false
+            },
+            "a": {
+                "name": "Identifying markings",
+                "repeatable": true,
+                "static": false
+            },
+            "b": {
+                "name": "Copy identification",
+                "repeatable": true,
+                "static": false
+            },
+            "c": {
+                "name": "Version identification",
+                "repeatable": true,
+                "static": false
+            },
+            "d": {
+                "name": "Presentation format",
+                "repeatable": true,
+                "static": false
+            },
+            "e": {
+                "name": "Number of copies",
+                "repeatable": true,
+                "static": false
+            }
+        }
+    },
+    "563": {
+        "fixed": false,
+        "indicators": false,
+        "name": "Binding Information",
+        "repeatable": true,
+        "subfields": {
+            "3": {
+                "name": "Materials specified",
+                "repeatable": false,
+                "static": false
+            },
+            "5": {
+                "name": "Institution to which field applies",
+                "repeatable": false,
+                "static": false
+            },
+            "6": {
+                "name": "Linkage",
+                "repeatable": false,
+                "static": false
+            },
+            "8": {
+                "name": "Field link and sequence number",
+                "repeatable": true,
+                "static": false
+            },
+            "a": {
+                "name": "Binding note",
+                "repeatable": false,
+                "static": false
+            },
+            "u": {
+                "name": "Uniform Resource Identifier",
+                "repeatable": true,
+                "static": false
+            }
+        }
+    },
+    "583": {
+        "fixed": false,
+        "indicators": false,
+        "name": "Action Note",
+        "repeatable": true,
+        "subfields": {
+            "2": {
+                "name": "Source of term",
+                "repeatable": false,
+                "static": false
+            },
+            "3": {
+                "name": "Materials specified",
+                "repeatable": false,
+                "static": false
+            },
+            "5": {
+                "name": "Institution to which field applies",
+                "repeatable": false,
+                "static": false
+            },
+            "6": {
+                "name": "Linkage",
+                "repeatable": false,
+                "static": false
+            },
+            "8": {
+                "name": "Field link and sequence number",
+                "repeatable": true,
+                "static": false
+            },
+            "a": {
+                "name": "Action",
+                "repeatable": false,
+                "static": false
+            },
+            "b": {
+                "name": "Action identification",
+                "repeatable": true,
+                "static": false
+            },
+            "c": {
+                "name": "Time/date of action",
+                "repeatable": true,
+                "static": false
+            },
+            "d": {
+                "name": "Action interval",
+                "repeatable": true,
+                "static": false
+            },
+            "e": {
+                "name": "Contingency for action",
+                "repeatable": true,
+                "static": false
+            },
+            "f": {
+                "name": "Authorization",
+                "repeatable": true,
+                "static": false
+            },
+            "h": {
+                "name": "Jurisdiction",
+                "repeatable": true,
+                "static": false
+            },
+            "i": {
+                "name": "Method of action",
+                "repeatable": true,
+                "static": false
+            },
+            "j": {
+                "name": "Site of action",
+                "repeatable": true,
+                "static": false
+            },
+            "k": {
+                "name": "Action agent",
+                "repeatable": true,
+                "static": false
+            },
+            "l": {
+                "name": "Status",
+                "repeatable": true,
+                "static": false
+            },
+            "n": {
+                "name": "Extent",
+                "repeatable": true,
+                "static": false
+            },
+            "o": {
+                "name": "Type of unit",
+                "repeatable": true,
+                "static": false
+            },
+            "u": {
+                "name": "Uniform Resource Identifier",
+                "repeatable": true,
+                "static": false
+            },
+            "x": {
+                "name": "Nonpublic note",
+                "repeatable": true,
+                "static": false
+            },
+            "z": {
+                "name": "Public note",
+                "repeatable": true,
+                "static": false
+            }
+        }
+    },
+    "841": {
+        "fixed": false,
+        "indicators": false,
+        "name": "Holdings Coded Data Values",
+        "repeatable": false,
+        "subfields": {
+            "a": {
+                "name": "Type of record",
+                "repeatable": false,
+                "static": true,
+                "staticValues": {
+                    "0": {
+                        "name": "Type of record",
+                        "value": "0"
+                    },
+                    "1-2": {
+                        "name": "Undefined",
+                        "value": "1-2"
+                    },
+                    "3": {
+                        "name": "Character coding scheme",
+                        "value": "3"
+                    }
+                }
+            },
+            "b": {
+                "name": "Fixed-length data elements",
+                "repeatable": false,
+                "static": true,
+                "staticValues": {
+                    "0-31": {
+                        "name": "Holdings 008 values",
+                        "value": "0-31"
+                    }
+                }
+            },
+            "e": {
+                "name": "Encoding level",
+                "repeatable": false,
+                "static": true,
+                "staticValues": {
+                    "0": {
+                        "name": "Encoding level",
+                        "value": "0"
+                    }
+                }
+            }
+        }
+    },
+    "842": {
+        "fixed": false,
+        "indicators": false,
+        "name": "Textual Physical Form Designator",
+        "repeatable": false,
+        "subfields": {
+            "6": {
+                "name": "Linkage",
+                "repeatable": false,
+                "static": false
+            },
+            "8": {
+                "name": "Field link and sequence number",
+                "repeatable": true,
+                "static": false
+            },
+            "a": {
+                "name": "Textual physical form designator",
+                "repeatable": false,
+                "static": false
+            }
+        }
+    },
+    "843": {
+        "fixed": false,
+        "indicators": false,
+        "name": "Reproduction Note",
+        "repeatable": true,
+        "subfields": {
+            "3": {
+                "name": "Materials specified",
+                "repeatable": false,
+                "static": false
+            },
+            "5": {
+                "name": "Institution to which field applies",
+                "repeatable": false,
+                "static": false
+            },
+            "6": {
+                "name": "Linkage",
+                "repeatable": false,
+                "static": false
+            },
+            "7": {
+                "name": "Fixed-length data elements of reproduction",
+                "repeatable": false,
+                "static": true,
+                "staticValues": {
+                    "0": {
+                        "name": "Type of date/Publication status",
+                        "value": "0"
+                    },
+                    "1-4": {
+                        "name": "Date 1",
+                        "value": "1-4"
+                    },
+                    "12": {
+                        "name": "Frequency",
+                        "value": "12"
+                    },
+                    "13": {
+                        "name": "Regularity",
+                        "value": "13"
+                    },
+                    "14": {
+                        "name": "Form of item",
+                        "value": "14"
+                    },
+                    "5-8": {
+                        "name": "Date 2",
+                        "value": "5-8"
+                    },
+                    "9-11": {
+                        "name": "Place of publication, production, or execution",
+                        "value": "9-11"
+                    }
+                }
+            },
+            "8": {
+                "name": "Field link and sequence number",
+                "repeatable": true,
+                "static": false
+            },
+            "a": {
+                "name": "Type of reproduction",
+                "repeatable": false,
+                "static": false
+            },
+            "b": {
+                "name": "Place of reproduction",
+                "repeatable": true,
+                "static": false
+            },
+            "c": {
+                "name": "Agency responsible for reproduction",
+                "repeatable": true,
+                "static": false
+            },
+            "d": {
+                "name": "Date of reproduction",
+                "repeatable": false,
+                "static": false
+            },
+            "e": {
+                "name": "Physical description of reproduction",
+                "repeatable": false,
+                "static": false
+            },
+            "f": {
+                "name": "Series statement of reproduction",
+                "repeatable": true,
+                "static": false
+            },
+            "m": {
+                "name": "Dates of publication and/or sequential designation of issues reproduced",
+                "repeatable": true,
+                "static": false
+            },
+            "n": {
+                "name": "Note about reproduction",
+                "repeatable": true,
+                "static": false
+            }
+        }
+    },
+    "844": {
+        "fixed": false,
+        "indicators": false,
+        "name": "Name of Unit",
+        "repeatable": false,
+        "subfields": {
+            "6": {
+                "name": "Linkage",
+                "repeatable": false,
+                "static": false
+            },
+            "8": {
+                "name": "Field link and sequence number",
+                "repeatable": true,
+                "static": false
+            },
+            "a": {
+                "name": "Name of unit",
+                "repeatable": false,
+                "static": false
+            }
+        }
+    },
+    "845": {
+        "fixed": false,
+        "indicators": false,
+        "name": "Terms Governing Use and Reproduction Note",
+        "repeatable": true,
+        "subfields": {
+            "3": {
+                "name": "Materials specified",
+                "repeatable": false,
+                "static": false
+            },
+            "5": {
+                "name": "Institution to which field applies",
+                "repeatable": false,
+                "static": false
+            },
+            "6": {
+                "name": "Linkage",
+                "repeatable": false,
+                "static": false
+            },
+            "8": {
+                "name": "Field link and sequence number",
+                "repeatable": true,
+                "static": false
+            },
+            "a": {
+                "name": "Terms governing use and reproduction",
+                "repeatable": false,
+                "static": false
+            },
+            "b": {
+                "name": "Jurisdiction",
+                "repeatable": false,
+                "static": false
+            },
+            "c": {
+                "name": "Authorization",
+                "repeatable": false,
+                "static": false
+            },
+            "d": {
+                "name": "Authorized users",
+                "repeatable": false,
+                "static": false
+            },
+            "u": {
+                "name": "Uniform Resource Identifier",
+                "repeatable": true,
+                "static": false
+            }
+        }
+    },
+    "852": {
+        "fixed": false,
+        "indicators": false,
+        "name": "Location",
+        "repeatable": true,
+        "subfields": {
+            "2": {
+                "name": "Source of classification or shelving scheme",
+                "repeatable": false,
+                "static": false
+            },
+            "3": {
+                "name": "Materials specified",
+                "repeatable": false,
+                "static": false
+            },
+            "6": {
+                "name": "Linkage",
+                "repeatable": false,
+                "static": false
+            },
+            "8": {
+                "name": "Sequence number",
+                "repeatable": false,
+                "static": false
+            },
+            "e": {
+                "name": "Address",
+                "repeatable": true,
+                "static": false
+            },
+            "d": {
+                "name": "Former shelving location",
+                "repeatable": true,
+                "static": false
+            },
+            "g": {
+                "name": "Non-coded location qualifier",
+                "repeatable": true,
+                "static": false
+            },
+            "a": {
+                "name": "Location",
+                "repeatable": false,
+                "static": false
+            },
+            "b": {
+                "name": "Sublocation or collection",
+                "repeatable": true,
+                "static": false
+            },
+            "c": {
+                "name": "Shelving location",
+                "repeatable": true,
+                "static": false
+            },
+            "f": {
+                "name": "Coded location qualifier  \\n",
+                "repeatable": true,
+                "static": false
+            },
+            "h": {
+                "name": "Classification part",
+                "repeatable": false,
+                "static": false
+            },
+            "i": {
+                "name": "Item part",
+                "repeatable": true,
+                "static": false
+            },
+            "j": {
+                "name": "Shelving control number",
+                "repeatable": false,
+                "static": false
+            },
+            "k": {
+                "name": "Call number prefix",
+                "repeatable": true,
+                "static": false
+            },
+            "l": {
+                "name": "Shelving form of title",
+                "repeatable": false,
+                "static": false
+            },
+            "m": {
+                "name": "Call number suffix",
+                "repeatable": true,
+                "static": false
+            },
+            "n": {
+                "name": "Country code",
+                "repeatable": false,
+                "static": false
+            },
+            "p": {
+                "name": "Piece designation",
+                "repeatable": false,
+                "static": false
+            },
+            "q": {
+                "name": "Piece physical condition",
+                "repeatable": false,
+                "static": false
+            },
+            "s": {
+                "name": "Copyright article-fee code",
+                "repeatable": true,
+                "static": false
+            },
+            "t": {
+                "name": "Copy number",
+                "repeatable": false,
+                "static": false
+            },
+            "u": {
+                "name": "Uniform Resource Identifier",
+                "repeatable": true,
+                "static": false
+            },
+            "x": {
+                "name": "Nonpublic note",
+                "repeatable": true,
+                "static": false
+            },
+            "z": {
+                "name": "Public note",
+                "repeatable": true,
+                "static": false
+            }
+        }
+    },
+    "853": {
+        "fixed": false,
+        "indicators": false,
+        "name": "Captions and Pattern-Basic Bibliographic Unit",
+        "repeatable": true,
+        "subfields": {}
+    },
+    "854": {
+        "fixed": false,
+        "indicators": false,
+        "name": "Captions and Pattern-Supplementary Material",
+        "repeatable": true,
+        "subfields": {}
+    },
+    "855": {
+        "fixed": false,
+        "indicators": false,
+        "name": "Captions and Pattern-Indexes",
+        "repeatable": true,
+        "subfields": {}
+    },
+    "856": {
+        "fixed": false,
+        "indicators": false,
+        "name": "Electronic Location and Access",
+        "repeatable": true,
+        "subfields": {
+            "2": {
+                "name": "Access method",
+                "repeatable": false,
+                "static": false
+            },
+            "3": {
+                "name": "Materials specified",
+                "repeatable": false,
+                "static": false
+            },
+            "6": {
+                "name": "Linkage",
+                "repeatable": false,
+                "static": false
+            },
+            "8": {
+                "name": "Field link and sequence number",
+                "repeatable": true,
+                "static": false
+            },
+            "a": {
+                "name": "Host name",
+                "repeatable": true,
+                "static": false
+            },
+            "b": {
+                "name": "Access number",
+                "repeatable": true,
+                "static": false
+            },
+            "c": {
+                "name": "Compression information",
+                "repeatable": true,
+                "static": false
+            },
+            "d": {
+                "name": "Path",
+                "repeatable": true,
+                "static": false
+            },
+            "f": {
+                "name": "Electronic name",
+                "repeatable": true,
+                "static": false
+            },
+            "h": {
+                "name": "Processor of request",
+                "repeatable": false,
+                "static": false
+            },
+            "i": {
+                "name": "Instruction",
+                "repeatable": true,
+                "static": false
+            },
+            "j": {
+                "name": "Bits per second",
+                "repeatable": false,
+                "static": false
+            },
+            "k": {
+                "name": "Password",
+                "repeatable": false,
+                "static": false
+            },
+            "l": {
+                "name": "Logon",
+                "repeatable": false,
+                "static": false
+            },
+            "m": {
+                "name": "Contact for access assistance",
+                "repeatable": true,
+                "static": false
+            },
+            "n": {
+                "name": "Name of location of host",
+                "repeatable": false,
+                "static": false
+            },
+            "o": {
+                "name": "Operating system",
+                "repeatable": false,
+                "static": false
+            },
+            "p": {
+                "name": "Port",
+                "repeatable": false,
+                "static": false
+            },
+            "q": {
+                "name": "Electronic format type",
+                "repeatable": false,
+                "static": false
+            },
+            "r": {
+                "name": "Settings",
+                "repeatable": false,
+                "static": false
+            },
+            "s": {
+                "name": "File size",
+                "repeatable": true,
+                "static": false
+            },
+            "t": {
+                "name": "Terminal emulation",
+                "repeatable": true,
+                "static": false
+            },
+            "u": {
+                "name": "Uniform Resource Identifier",
+                "repeatable": true,
+                "static": false
+            },
+            "v": {
+                "name": "Hours access method available",
+                "repeatable": true,
+                "static": false
+            },
+            "w": {
+                "name": "Record control number",
+                "repeatable": true,
+                "static": false
+            },
+            "x": {
+                "name": "Nonpublic note",
+                "repeatable": true,
+                "static": false
+            },
+            "y": {
+                "name": "Link text",
+                "repeatable": true,
+                "static": false
+            },
+            "z": {
+                "name": "Public note",
+                "repeatable": true,
+                "static": false
+            }
+        }
+    },
+    "863": {
+        "fixed": false,
+        "indicators": false,
+        "name": "Enumeration and Chronology-Basic Bibliographic Unit",
+        "repeatable": true,
+        "subfields": {}
+    },
+    "864": {
+        "fixed": false,
+        "indicators": false,
+        "name": "Enumeration and Chronology-Supplementary Material",
+        "repeatable": true,
+        "subfields": {}
+    },
+    "865": {
+        "fixed": false,
+        "indicators": false,
+        "name": "Enumeration and Chronology-Indexes",
+        "repeatable": true,
+        "subfields": {}
+    },
+    "866": {
+        "fixed": false,
+        "indicators": false,
+        "name": "Textual Holdings-Basic Bibliographic Unit",
+        "repeatable": true,
+        "subfields": {}
+    },
+    "867": {
+        "fixed": false,
+        "indicators": false,
+        "name": "Textual Holdings-Supplementary Material",
+        "repeatable": true,
+        "subfields": {}
+    },
+    "868": {
+        "fixed": false,
+        "indicators": false,
+        "name": "Textual Holdings-Indexes",
+        "repeatable": true,
+        "subfields": {}
+    },
+    "876": {
+        "fixed": false,
+        "indicators": false,
+        "name": "Item Information-Basic Bibliographic Unit",
+        "repeatable": true,
+        "subfields": {}
+    },
+    "877": {
+        "fixed": false,
+        "indicators": false,
+        "name": "Item Information-Supplementary Material",
+        "repeatable": true,
+        "subfields": {}
+    },
+    "878": {
+        "fixed": false,
+        "indicators": false,
+        "name": "Item Information-Indexes",
+        "repeatable": true,
+        "subfields": {}
+    },
+    "880": {
+        "fixed": false,
+        "indicators": false,
+        "name": "Alternate Graphic Representation",
+        "repeatable": true,
+        "subfields": {
+            "0": {
+                "name": "Same as associated field",
+                "repeatable": true,
+                "static": false
+            },
+            "1": {
+                "name": "Same as associated field",
+                "repeatable": true,
+                "static": false
+            },
+            "2": {
+                "name": "Same as associated field",
+                "repeatable": true,
+                "static": false
+            },
+            "3": {
+                "name": "Same as associated field",
+                "repeatable": true,
+                "static": false
+            },
+            "4": {
+                "name": "Same as associated field",
+                "repeatable": true,
+                "static": false
+            },
+            "5": {
+                "name": "Same as associated field",
+                "repeatable": true,
+                "static": false
+            },
+            "6": {
+                "name": "Linkage",
+                "repeatable": false,
+                "static": false
+            },
+            "7": {
+                "name": "Same as associated field",
+                "repeatable": true,
+                "static": false
+            },
+            "8": {
+                "name": "Same as associated field",
+                "repeatable": true,
+                "static": false
+            },
+            "9": {
+                "name": "Same as associated field",
+                "repeatable": true,
+                "static": false
+            },
+            "a": {
+                "name": "Same as associated field",
+                "repeatable": true,
+                "static": false
+            },
+            "b": {
+                "name": "Same as associated field",
+                "repeatable": true,
+                "static": false
+            },
+            "c": {
+                "name": "Same as associated field",
+                "repeatable": true,
+                "static": false
+            },
+            "d": {
+                "name": "Same as associated field",
+                "repeatable": true,
+                "static": false
+            },
+            "e": {
+                "name": "Same as associated field",
+                "repeatable": true,
+                "static": false
+            },
+            "f": {
+                "name": "Same as associated field",
+                "repeatable": true,
+                "static": false
+            },
+            "g": {
+                "name": "Same as associated field",
+                "repeatable": true,
+                "static": false
+            },
+            "h": {
+                "name": "Same as associated field",
+                "repeatable": true,
+                "static": false
+            },
+            "i": {
+                "name": "Same as associated field",
+                "repeatable": true,
+                "static": false
+            },
+            "j": {
+                "name": "Same as associated field",
+                "repeatable": true,
+                "static": false
+            },
+            "k": {
+                "name": "Same as associated field",
+                "repeatable": true,
+                "static": false
+            },
+            "l": {
+                "name": "Same as associated field",
+                "repeatable": true,
+                "static": false
+            },
+            "m": {
+                "name": "Same as associated field",
+                "repeatable": true,
+                "static": false
+            },
+            "n": {
+                "name": "Same as associated field",
+                "repeatable": true,
+                "static": false
+            },
+            "o": {
+                "name": "Same as associated field",
+                "repeatable": true,
+                "static": false
+            },
+            "p": {
+                "name": "Same as associated field",
+                "repeatable": true,
+                "static": false
+            },
+            "q": {
+                "name": "Same as associated field",
+                "repeatable": true,
+                "static": false
+            },
+            "r": {
+                "name": "Same as associated field",
+                "repeatable": true,
+                "static": false
+            },
+            "s": {
+                "name": "Same as associated field",
+                "repeatable": true,
+                "static": false
+            },
+            "t": {
+                "name": "Same as associated field",
+                "repeatable": true,
+                "static": false
+            },
+            "u": {
+                "name": "Same as associated field",
+                "repeatable": true,
+                "static": false
+            },
+            "v": {
+                "name": "Same as associated field",
+                "repeatable": true,
+                "static": false
+            },
+            "w": {
+                "name": "Same as associated field",
+                "repeatable": true,
+                "static": false
+            },
+            "x": {
+                "name": "Same as associated field",
+                "repeatable": true,
+                "static": false
+            },
+            "y": {
+                "name": "Same as associated field",
+                "repeatable": true,
+                "static": false
+            },
+            "z": {
+                "name": "Same as associated field",
+                "repeatable": true,
+                "static": false
+            }
+        }
+    },
+    "883": {
+        "fixed": false,
+        "indicators": {
+            "1": {
+                "name": "Method of machine assignment",
+                "values": {
+                    "#": "No information provided/not applicable",
+                    "0": "Fully machine-generated",
+                    "1": "Partially machine-generated"
+                }
+            },
+            "2": {
+                "name": "Undefined",
+                "values": {
+                    "#": "Undefined"
+                }
+            }
+        },
+        "name": "Machine-generated Metadata Provenance",
+        "repeatable": true,
+        "subfields": {
+            "0": {
+                "name": "Authority record control number or standard number",
+                "repeatable": true,
+                "static": false
+            },
+            "8": {
+                "name": "Field link and sequence number",
+                "repeatable": true,
+                "static": false
+            },
+            "a": {
+                "name": "Generation process",
+                "repeatable": false,
+                "static": false
+            },
+            "c": {
+                "name": "Confidence value",
+                "repeatable": false,
+                "static": false
+            },
+            "d": {
+                "name": "Generation date",
+                "repeatable": false,
+                "static": false
+            },
+            "q": {
+                "name": "Generation agency",
+                "repeatable": false,
+                "static": false
+            },
+            "u": {
+                "name": "Uniform Resource Identifier",
+                "repeatable": false,
+                "static": false
+            },
+            "w": {
+                "name": "Bibliographic record control number",
+                "repeatable": true,
+                "static": false
+            },
+            "x": {
+                "name": "Validity end date",
+                "repeatable": false,
+                "static": false
+            }
+        }
+    },
+    "884": {
+        "fixed": false,
+        "indicators": {
+            "1": {
+                "name": "Undefined",
+                "values": {
+                    "#": "Undefined"
+                }
+            },
+            "2": {
+                "name": "Undefined",
+                "values": {
+                    "#": "Undefined"
+                }
+            }
+        },
+        "name": "Description Conversion Information",
+        "repeatable": true,
+        "subfields": {
+            "a": {
+                "name": "Conversion process",
+                "repeatable": false,
+                "static": false
+            },
+            "g": {
+                "name": "Conversion date",
+                "repeatable": false,
+                "static": false
+            },
+            "k": {
+                "name": "Identifier of source metadata",
+                "repeatable": false,
+                "static": false
+            },
+            "q": {
+                "name": "Conversion agency",
+                "repeatable": false,
+                "static": false
+            },
+            "u": {
+                "name": "Uniform Resource Identifier",
+                "repeatable": true,
+                "static": false
+            }
+        }
+    }
+}

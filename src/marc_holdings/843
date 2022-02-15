@@ -1,0 +1,715 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <title>MARC 21 Format for Holdings Data: 843: Reproduction Note (Network Development and MARC Standards Office, Library of Congress)
+      </title>
+      <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+      <meta name="description" content="This field contains the reproduction note (Network Development and MARC Standards Office, Library of Congress)">
+      <meta name="keywords" content="marc, marc21, marc standards">
+      <meta name="author" content="Library of Congress Network Development and MARC Standards Office">
+      <link href="http://www.loc.gov/marc/marc-generic.css" rel="stylesheet" type="text/css"><style type="text/css">
+					body {margin-left: 2em; margin-right: 2em;} 
+					h1 {font-family:Arial, Helvetica, sans-serif;}
+					h3 {text-align:left;}
+					h4 {margin-top:.5em; margin-bottom:.5em;}
+					p {text-align:justify; margin-left:2em; margin-right:2em;}
+					.formatname {font-weight:bold; font-family:Arial, Helvetica, sans-serif; margin-left:.5em}
+					.datename {font-weight:bold; text-align:right; font-family:Arial, Helvetica, sans-serif; margin-top:-1.2em;}
+					.font_small {font-size:9pt;}
+					.fieldtoc {margin-left:2em;}
+					.subfieldtoc {margin-left:3em;}
+					.box {font-family:ZapfDingbats;}
+					.description {text-align:justify; margin-left:2em;}
+					.description2  {text-align:justify; margin-top:1em; margin-bottom:1em;}
+					.description3 {text-align:justify; margin-top:1em; margin-bottom:1em; margin-left:2em;}
+					.indicator {text-align:left; margin-top:1em; margin-bottom:1em;}
+					.indicatorvalue {margin-left:2em; margin-top:1em; margin-bottom:1em;}
+					.subfieldvalue {margin-left:2em; margin-top:1em; margin-bottom:1em;}
+					.subfield {text-align:left; margin-top:1em; margin-bottom:1em; margin-left:2em;}
+					.characterposition {text-align:left; margin-top:1em; margin-bottom:1em; margin-left:2em;}
+					.charactervalue {margin-left:2em; margin-top:1em; margin-bottom:1em;}
+					.characterpositionhistory {text-align:left; margin-top:.5em; margin-bottom:.5em; margin-left:2em;}
+					.charactervaluehistory {margin-left:2em; margin-top:.1em; margin-bottom:.1em;}
+					.example {margin-left:4em;}
+					.changed {color: #FF0000;}
+					.captiontext {font-style:italic;}
+					.displaytext {font-style:italic; margin-bottom:.5em; margin-top:.5em;}
+					.displaycontent {text-align:left;}
+					.table {margin-left:2em; margin-top:1em; margin-bottom:1em;}
+					.head-nav {font-family:Arial, Helvetica, sans-serif; font-size:9pt;}
+					.summary {margin-left:2em;}
+					.summarytable {margin-left:4em;}
+					.update {text-align:center; font-weight:bold; margin-top:1em; margin-bottom:1em;}
+					.changebox {font-style:italic; margin-top:.5em;}
+					.changesection {text-align:left; margin-left:2em; font-weight:bold; margin-top:.5em;}
+					.changefield {text-align:left; margin-left:1em; font-weight:bold;}
+					.changefieldlabel {margin-left:3em; font-weight:bold;}
+					.changeindicator {margin-left:3em;}
+					.changeindicatorfieldname {margin-left:2em;}
+					.changeindicatorvalue {margin-left:4em; font-weight:bold;}
+					.changesubfield {margin-left:3em; font-weight:bold;}
+					.changesubfieldname {margin-left:1em; font-weight:bold;}
+					.changesubfieldlocation {text-align:justify; font-weight:normal;}
+					.glossaryentry {margin-left:2em; margin-top:1em; font-weight:bold;}
+					.glossaryentrydescription {margin-left:4em; margin-bottom:1em; text-align:justify;}
+					.citationaddress {margin-left:2em; text-align:justify;}
+					.citationinternet {margin-left:2em; text-align:justify;}
+					.citationname {font-style:italic; margin-top:1em;}
+				</style></head>
+   <body bgcolor="#ffffff">
+      <div class="head-nav"><a href="http://www.loc.gov/">Library of Congress</a> &gt;&gt;  <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt; <a href="http://www.loc.gov/marc/holdings/">Holdings</a> 
+         					&gt;&gt;  <a href="http://www.loc.gov/marc/holdings/hd5xx84x.html">5XX, 84X</a> &gt;&gt; <strong>843</strong></div>
+      <hr><a name="skip_menu"></a><h1>843 - Reproduction Note (R)</h1>
+      <hr>
+      <div class="formatname">MARC 21 Holdings - Full</div>
+      <div class="datename">October 2007</div>
+      <hr>
+      <table width="100%">
+         <tr vAlign="top">
+            <td width="45%"><strong>First Indicator</strong><br><em>Undefined</em><br># - Undefined <br><br></td>
+            <td width="45%"><strong>Second Indicator</strong><br><em>Undefined</em><br># - Undefined <br><br></td>
+         </tr>
+      </table>
+      <hr>
+      <table width="100%">
+         <tr vAlign="top">
+            <td valign="top" width="50%" align="left"></td>
+            <td valign="top" width="50%" align="left"></td>
+         </tr>
+         <tr vAlign="top">
+            <td colspan="2"><strong>Subfield Codes</strong><br></td>
+         </tr>
+         <tr vAlign="top">
+            <td colspan="1">$a - Type of reproduction (NR) <br>$b - Place of reproduction (R) <br>$c - Agency responsible for reproduction (R) <br>$d - Date of reproduction (NR) <br>$e - Physical description of reproduction (NR) <br>$f - Series statement of reproduction (R) <br>$m - Dates of publication and/or sequential designation of issues reproduced (R) <br>$n - Note about reproduction (R) <br>$3 - Materials specified (NR) <br>
+              $5 - Institution to which field applies (NR)<br>
+              $6 - Linkage (NR) <br></td>
+            <td colspan="1">$7 - Fixed-length data elements of reproduction (NR) <br>&nbsp;&nbsp;&nbsp;&nbsp;/0 - Type of date/Publication status <br>&nbsp;&nbsp;&nbsp;&nbsp;/1-4 - Date 1 <br>&nbsp;&nbsp;&nbsp;&nbsp;/5-8 - Date 2 <br>&nbsp;&nbsp;&nbsp;&nbsp;/9-11 - Place of publication, production, or execution <br>&nbsp;&nbsp;&nbsp;&nbsp;/12 - Frequency <br>&nbsp;&nbsp;&nbsp;&nbsp;/13 - Regularity <br>&nbsp;&nbsp;&nbsp;&nbsp;/14 - Form of item <br>$8 - Field link and sequence number (R) <br></td>
+         </tr>
+   </table>
+      <hr>
+      <h3>FIELD DEFINITION AND SCOPE</h3>
+      <p>Description of an item that is a reproduction of original materials. Used when an
+         institution chooses to have the main portion of the bibliographic record description
+         reflect the original and the notes in field 843 reflect information about the copy.
+      </p>
+      <p>This field is identical to <a href="../bibliographic/bd533.html">field 533</a> (Reproduction Note) defined in the <em>MARC 21
+                           Format for Bibliographic Data</em>.      </p>
+      <hr>
+      <h3>GUIDELINES FOR APPLYING CONTENT DESIGNATORS</h3>
+      <p>For records formulated according to AACR cataloging rules, elements of field 843 are
+                     generally separated by ISBD punctuation (e.g. Place of publication is separated from the
+                     publisher&#8217;s name by a space-colon-space ( : )).
+      </p>
+      <h4><span class="box">&#9632;</span> INDICATORS
+      </h4>
+      <ul>
+         <li>Both indicators are undefined; each contains a blank (#).</li>
+      </ul>
+      <h4><span class="box">&#9632;</span> SUBFIELD CODES
+      </h4>
+      <div class="subfield"><strong>$a - Type of reproduction</strong> <div class="description">Introductory phrase (ending with a period) that identifies the type of
+                              reproduction described in the field.
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>843</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$a</strong>Microfilm.<strong>$b</strong>Washington, D.C. :<strong>$c</strong>United States Historical Documents Institute,<strong>$d</strong>[1972]<strong>$e</strong>12 reels ; 35 mm.<strong>$7</strong>s1972####dcun#a
+                  </td>
+               </tr>
+            </table>
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>843</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$a</strong>Microfiche.<strong>$b</strong>[Ottawa] :<strong>$c</strong>National Archives of Canada,<strong>$d</strong>[1978?]<strong>$e</strong>2 microfiches (132 fr.) ; 11 x 15 cm.<strong>$7</strong>s1978####oncn#b
+                  </td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="subfield"><strong>$b - Place of reproduction</strong> <div class="description">Name of the place where the reproduction was made. When more than one place is
+                              given, subfield $b is repeated.
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>843</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$a</strong>Microfilm.<strong>$b</strong>Washington, D.C. :<strong>$c</strong>Library of Congress, Photoduplication Service,<strong>$d</strong>1981.<strong>$e</strong>1 microfilm reel ; 35 mm.<strong>$7</strong>s1981####dcun#a
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>843</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$a</strong>Facsim.<strong>$b</strong>Ithaca, N.Y. :<strong>$c</strong>Historic Urban Plans,<strong>$d</strong>1968.<strong>$e</strong>mounted on cloth backing.
+                  </td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="subfield"><strong>$c - Agency responsible for reproduction</strong> <div class="description">If more than one agency is simultaneously responsible for the same reproduction,
+                              subfield $c is repeated.
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>843</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$a</strong>Microfilm.<strong>$b</strong>Washington, D.C. :<strong>$c</strong>Library of Congress, Photoduplication Service,<strong>$d</strong>1987.<strong>$e</strong>1 microfilm reel ; 35 mm.<strong>$7</strong>s1987####dcun#a
+                  </td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="subfield"><strong>$d - Date of reproduction</strong> <div class="description">For <strong>continuing resources</strong>, the beginning and ending dates of the
+                              reproduction are given when available.
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>843</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$a</strong>Microfilm.<strong>$m</strong>1950-1963.<strong>$b</strong>Webster, N.Y. :<strong>$c</strong>Photographic Sciences Corp.,<strong>$d</strong>1974-<strong>$e</strong>2 microfilm reels ; 35 mm.<strong>$7</strong>c19501963nyuuua
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>843</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$a</strong>Microfilm.<strong>$m</strong>Jan. 1959-Apr. 1970.<strong>$b</strong>Ann Arbor, Mich. :<strong>$c</strong>University Microfilms International,<strong>$d</strong>1980.<strong>$7</strong>d19591970miuuua
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>843</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$a</strong>Microfilm.<strong>$m</strong>1960-1968.<strong>$b</strong>Washington, D.C. :<strong>$c</strong>Library of Congress,<strong>$d</strong>[1983?]<strong>$e</strong>10 microfilm reels ; 35 mm.<strong>$7</strong>d19601968dcuuua
+                  </td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="subfield"><strong>$e - Physical description of reproduction</strong> <div class="description">Normally contains the number of physical pieces and the dimensions of the
+                              reproduction. The polarity, when negative, is recorded in subfield $e
+                              as other physical details following the number of pieces and preceding the
+                              dimensions. For <strong>continuing resources</strong>, the number of microfilm
+                              reels, microfiches, etc., is recorded only when the microform set is complete.
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>843</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$a</strong>Microfiche.<strong>$m</strong>Jan. 1930-Nov. 1945.<strong>$b</strong>Glen Rock, N.J. :<strong>$c</strong>Microfilming Corp. of America,<strong>$d</strong>1975.<strong>$e</strong>66 microfiches.<strong>$7</strong>d19301945njumrb
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>843</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$a</strong>Microfilm.<strong>$m</strong>1950-1954.<strong>$b</strong>Millwood, N.Y. :<strong>$c</strong>KTO Microfilm,<strong>$d</strong>1966.<strong>$e</strong>5 microfilm reels : negative ; 35 mm.<strong>$7</strong>d19501954nyuara
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>843</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$a</strong>Microfilm.<strong>$m</strong>Apr. 1920-Mar. 1935.<strong>$b</strong>Ann Arbor, Mich. :<strong>$c</strong>University Microfilms International,<strong>$d</strong>1966?-1980.<strong>$e</strong>15 microfilm reels ; 35 mm.<strong>$7</strong>d19201935miumra
+                  </td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="subfield"><strong>$f - Series statement of reproduction</strong> <div class="description">Series, always enclosed in parentheses, to which the reproduction belongs.</div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>843</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$a</strong>Microfiche.<strong>$b</strong>[New York :<strong>$c</strong>New York Public Library,<strong>$d</strong>197-?]<strong>$e</strong>4 microfiches : negative.<strong>$f</strong>(NYSPL FSN 14,023)<strong>$7</strong>q19701979nyun#b
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>843</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$a</strong>Microfilm.<strong>$m</strong>July 1919-Nov. 1925.<strong>$b</strong>Ann Arbor, Mich :<strong>$c</strong>University Microfilms International,<strong>$d</strong>1966?-1980.<strong>$e</strong>15 microfilm reels ; 35 mm.<strong>$f</strong>(Current periodical series :publication no. 2313).<strong>$7</strong>d19191925miuuua
+                  </td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="subfield"><strong>$m - Dates of publication and/or sequential designation of issues reproduced</strong> <div class="description">Sequential designation and/or dates of publication of the original issues that
+                              have been reproduced.
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>843</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$a</strong>Microfilm.<strong>$m</strong>1962-1965.<strong>$b</strong>Ann Arbor, Mich. :<strong>$c</strong>University Microfilms International,<strong>$d</strong>1988.<strong>$e</strong>1 microfilm reel ; 35 mm.<strong>$7</strong>d19621965miuuua
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>843</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$a</strong>Microfilm.<strong>$m</strong>Vol. 1, no. 1 (Apr. 1983)-v. 1, no. 3 (June 1983).<strong>$b</strong>Berkeley, Calif. :<strong>$c</strong>University of California, Library Photographic Service,<strong>$d</strong>1986.<strong>$e</strong>1 microfilm reel ; 35 mm.<strong>$7</strong>d19831983cauuua
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>843</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$a</strong>Microfiche.<strong>$m</strong>1961-<strong>$b</strong>Washington, D.C. :<strong>$c</strong>U.S. G.P.O.,<strong>$d</strong>1990-<strong>$e</strong>microfiches : negative.<strong>$7</strong>c19619999dcuuub
+                  </td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="subfield"><strong>$n - Note about reproduction</strong> <div class="description">If more than one note is needed, subfield $n is repeated.</div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>843</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$a</strong>Microfilm.<strong>$m</strong>Vol. 1, no. 1 (Jan. 1837)-v. 20, no. 12 (Dec. 1856).<strong>$b</strong>Washington, D.C. :<strong>$c</strong>Library of Congress Photoduplication Service,<strong>$d</strong>1971.<strong>$e</strong>3 microfilm reels; 35 mm.<strong>$n</strong>Issues for 1853-1856 on reel with: Journal of the
+                                             American Temperance Union and the New York prohibitionist, v. 21, no. 7
+                                             (July 1857)-v. 24 (1860).
+                  </td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="subfield"><strong>$3 - Materials specified</strong> <div class="description">Part of the bibliographic item to which the field applies. Subfield $3
+                              is the first subfield in the field.
+         </div>
+         <div class="description2">
+            <div class="description">When separate holdings records are made for each part of a bibliographic item,
+                                 each record may contain a field 843 that contains a subfield $3 to
+                                 specify the part to which the note applies. When holdings for all of the parts of
+                                 a bibliographic item are contained in one holdings record (and there is no 863-865
+                                 Enumeration and Chronology field), subfield $3 may be used whenever a
+                                 data element in field 843 differs for a specified part of the item.
+            </div>
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>843</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$3</strong>Corrrespondence files<strong>$a</strong>Microfilm.<strong>$b</strong>Middleton, Conn. :<strong>$c</strong>Wesleyan University Archives,<strong>$d</strong>1973.<strong>$e</strong>35 mm. negative.<strong>$7</strong>s1973####ctun#a
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>843</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$3</strong>German Foreign Ministry Archives, 1867-1920<strong>$a</strong>Microfilm.<strong>$b</strong>Whaddon Hall, Buckinghamshire, England :<strong>$c</strong>American Historical Association.<strong>$e</strong>434 rolls.<strong>$f</strong>(Seized enemy records series).<strong>$7</strong>n########enkn#a
+                  </td>
+               </tr>
+            </table>
+         </div>
+      </div>
+
+         <div class="subfield"><strong>$5 - Institution to which field applies</strong> <div class="description">See the description of this subfield in Appendix A: <em><a href="http://www.loc.gov/marc/holdings/echdcntf.html">Control Subfields</a></em>.
+            </div>
+            <div class="example">
+               <table width="100%">
+                  <tr>
+                     <td valign="top" width="5%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="15%" align="left"></td>
+                  </tr>
+                  <tr>
+                     <td vAlign="top" colspan="1" align="left"><strong>843</strong></td>
+                     <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$3</strong>v.1-39(1927-1965)<strong>$a</strong>Electronic reproduction.<strong>$b</strong>Ithaca, NY :<strong>$c</strong>Cornell University Library,<strong>$d</strong>2001<strong>$f</strong>(Core historical literature of agriculture)<strong>$5</strong>NIC
+                     </td>
+                  </tr>
+                  <tr>
+                     <td vAlign="top" colspan="1" align="left"><strong>843</strong></td>
+                     <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$3</strong>v.40-49(1966-1975)<strong>$a</strong>Electronic reproduction.<strong>$b</strong>[Chicago] : University of Chicago Library,<strong>$d</strong>[2006]<strong>$5</strong>ICU
+                     </td>
+                  </tr>
+               </table>
+            </div>
+         </div>
+
+      <div class="subfield"><strong>$6 - Linkage</strong> <div class="description">See the description of this subfield in Appendix A: <em><a href="http://www.loc.gov/marc/holdings/echdcntf.html">Control Subfields</a></em>.
+         </div>
+      </div>
+      <div class="subfield"><strong>$7 - Fixed-length data elements of reproduction</strong> <div class="description">Fifteen fixed-position character positions (designated 0, 1-4, etc.) that contain
+                              coded information pertaining to the reproduction. These character positions
+                              correspond to the <em>MARC 21 Format for Bibliographic Data</em> field 008
+                              (Fixed-Length Data Elements), character positions 06-17 (All Formats), 18-19
+                              (Continuing resources), and 23 (Books). Each character position must contain
+                              either a defined code or a fill character (|). Subfield $7 is always
+                              the last subfield in the field. 
+         </div>
+         <div class="charactervalue"><strong>/0 - Type of date/Publication status</strong> <div class="description">Type of dates given in subfield $7 positions 1-4 (Date 1) and 5-8
+                                    (Date 2). Any code found in the description of 008/06 (Type of date/Publication
+                                    status) except code r (Reprint/reissue date and original date) may be used.
+            </div>
+            <div class="description2">
+               <div class="description">For <strong>serially-issued items</strong>, it also indicates the publication
+                                       status of the reproduction; a serial code c, d, or u as described in 008/06
+                                       (Type of date/Publication status) is used.
+               </div>
+            </div>
+         </div>
+         <div class="charactervalue"><strong>/1-4 - Date 1</strong> <div class="description">Date in the form <em>yyyy</em> specified by the value in 0.
+            </div>
+            <div class="description2">
+               <div class="description">Determination of dates for subfield $7, positions 1-4 is made
+                                       concurrently with the choice of code for position 0.
+               </div>
+            </div>
+            <div class="description2">
+               <div class="description">For <strong>non-serials</strong>, 1-4 contains Date 1 information associated
+                                       with the reproduction. The information is generally related to information
+                                       found in subfield $d of field 843.
+               </div>
+               <div class="description3">For <strong>serially-issued items</strong>, 1-4 contains the original beginning
+                                       date of publication of the issues that have been reproduced, as indicated in
+                                       subfield $m of field 843.
+               </div>
+               <div class="description3">In coding these positions, the guidelines in 008/07-10 (Date 1) of the <em>MARC
+                                             21 Format for Bibliographic Data</em> are followed.
+               </div>
+            </div>
+         </div>
+         <div class="charactervalue"><strong>/5-8 - Date 2</strong> <div class="description">Date in the form <em>yyyy</em> specified by the value in 0.
+            </div>
+            <div class="description2">
+               <div class="description">Determination of dates for subfield $7 positions 5-8 is made
+                                       concurrently with the choice of code for position 0.
+               </div>
+            </div>
+            <div class="description2">
+               <div class="description">For <strong>non-serials</strong>, 5-8 contains Date 2 information associated
+                                       with the reproduction. The information is generally related to information
+                                       found in subfield $d of field 843.
+               </div>
+               <div class="description3">For <strong>serially-issued items</strong>, 5-8 contains the original ending
+                                       date of publication of the issues that have been reproduced, as indicated in
+                                       subfield $m of field 843.
+               </div>
+               <div class="description3">In coding these positions, the guidelines in 008/11-14 (Date 2) of the <em>MARC
+                                             21 Format for Bibliographic Data</em> are followed.
+               </div>
+            </div>
+         </div>
+         <div class="charactervalue"><strong>/9-11 - Place of publication, production, or execution</strong> <div class="description">Place of publication, production, or execution. Two-character codes are left
+                                    justified and the unused position contains a blank (#). Code from: <em><a href="http://www.loc.gov/marc/countries/">MARC Code List for
+                                             Countries</a></em>.
+            </div>
+            <div class="description2">
+               <div class="description">In coding these positions, the guidelines in 008/15-17 (Place of publication,
+                                       production, or execution) of the <em>MARC 21 Format for Bibliographic Data</em>
+                                       are followed.
+               </div>
+            </div>
+         </div>
+         <div class="charactervalue"><strong>/12 - Frequency</strong> <div class="description">Frequency of the reproduction. This element is used is conjunction with
+                                    subfield $7 position 13 (Regularity).
+            </div>
+            <div class="description2">
+               <div class="description">One of the following codes is used:</div>
+               <div class="table">
+                  <table>
+                     <tr>
+                        <td width="269" align="left" valign="top"> # - No determinable frequency </td>
+                        <td width="310" align="left" valign="top"> j - Three times a month </td>
+                     </tr>
+                     <tr>
+                        <td valign="top" align="left"> a - Annual </td>
+                        <td valign="top" align="left"> k - Continuously updated </td>
+                     </tr>
+                     <tr>
+                        <td valign="top" align="left"> b - Bimonthly </td>
+                        <td valign="top" align="left"> m - Monthly </td>
+                     </tr>
+                     <tr>
+                        <td valign="top" align="left"> c - Semiweekly </td>
+                        <td valign="top" align="left"> n - Not applicable </td>
+                     </tr>
+                     <tr>
+                        <td valign="top" align="left"> d - Daily </td>
+                        <td valign="top" align="left"> q - Quarterly </td>
+                     </tr>
+                     <tr>
+                        <td valign="top" align="left"> e - Biweekly </td>
+                        <td valign="top" align="left"> s - Semimonthly </td>
+                     </tr>
+                     <tr>
+                        <td valign="top" align="left"> f - Semiannual </td>
+                        <td valign="top" align="left"> t - Three times a year </td>
+                     </tr>
+                     <tr>
+                        <td valign="top" align="left"> g - Biennial </td>
+                        <td valign="top" align="left"> u - Unknown </td>
+                     </tr>
+                     <tr>
+                        <td valign="top" align="left"> h - Triennial </td>
+                        <td valign="top" align="left"> w - Weekly </td>
+                     </tr>
+                     <tr>
+                        <td valign="top" align="left"> i - Three times a week </td>
+                        <td valign="top" align="left"> z - Other frequencies </td>
+                     </tr>
+                  </table>
+               </div>
+            </div>
+         </div>
+         <div class="charactervalue"><strong>/13 - Regularity</strong> <div class="description">Regularity of a serial reproduction. Used in conjunction with 12
+                                 (Frequency).
+            </div>
+            <div class="description2">
+               <div class="description">One of the following codes is used:</div>
+               <div class="table">
+                  <table>
+                     <tr>
+                        <td width="225" align="left" valign="top"> # - Not applicable </td>
+                        <td width="248" align="left" valign="top"> x - Completely irregular </td>
+                     </tr>
+                     <tr>
+                        <td valign="top" align="left"> n - Normalized irregular </td>
+                        <td valign="top" align="left"> u - Unknown </td>
+                     </tr>
+                     <tr>
+                        <td valign="top" align="left"> r - Regular </td>
+                        <td valign="top" align="left">&nbsp;</td>
+                     </tr>
+                  </table>
+               </div>
+            </div>
+         </div>
+         <div class="charactervalue"><strong>/14 - Form of item</strong> <div class="description">Form of material for the reproduction in hand. The appropriate code found in
+                                    008/23 (Form of item) of the <em>MARC 21 Format for Bibliographic Data</em> for
+                                    books is used.
+            </div>
+            <div class="example">
+               <table width="100%">
+                  <tr>
+                     <td valign="top" width="5%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="15%" align="left"></td>
+                  </tr>
+                  <tr>
+                     <td vAlign="top" colspan="1" align="left"><strong>843</strong></td>
+                     <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$a</strong>Microfilm.<strong>$b</strong>Washington, D.C. :<strong>$c</strong>Library of Congress, Photoduplication Service,<strong>$d</strong>1990.<strong>$e</strong>1 microfilm reel ; 35 mm.<strong>$7</strong>s1990####dcun#a
+                     </td>
+                  </tr>
+               </table>
+            </div>
+            <div class="example">
+               <table width="100%">
+                  <tr>
+                     <td valign="top" width="5%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="15%" align="left"></td>
+                  </tr>
+                  <tr>
+                     <td vAlign="top" colspan="1" align="left"><strong>843</strong></td>
+                     <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$a</strong>Microfiche.<strong>$b</strong>[New York :<strong>$c</strong>New York Public Library,<strong>$d</strong>197-?]<strong>$e</strong>4 microfiches: negative.<strong>$7</strong>q19701979nyun#b
+                     </td>
+                  </tr>
+               </table>
+            </div>
+            <div class="example">
+               <table width="100%">
+                  <tr>
+                     <td valign="top" width="5%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="15%" align="left"></td>
+                  </tr>
+                  <tr>
+                     <td vAlign="top" colspan="1" align="left"><strong>843</strong></td>
+                     <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$a</strong>Microfiche.<strong>$m</strong>1961-<strong>$b</strong>Washington, D.C. :<strong>$c</strong>U.S. G.P.O.,<strong>$d</strong>1990-<strong>$e</strong>microfiches: negative.<strong>$7</strong>c19619999dcuarb
+                     </td>
+                  </tr>
+               </table>
+            </div>
+            <div class="example">
+               <table width="100%">
+                  <tr>
+                     <td valign="top" width="5%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="15%" align="left"></td>
+                  </tr>
+                  <tr>
+                     <td vAlign="top" colspan="1" align="left"><strong>843</strong></td>
+                     <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$a</strong>Microfilm.<strong>$m</strong>1962-1965.<strong>$b</strong>Ann Arbor, Mich. :<strong>$c</strong>University Microfilms International,<strong>$d</strong>1988.<strong>$e</strong>1 microfilm reel ; 35 mm.<strong>$7</strong>d19621965miuuua
+                     </td>
+                  </tr>
+               </table>
+            </div>
+         </div>
+      </div>
+      <div class="subfield"><strong>$8 - Field link and sequence number</strong> 
+        <div class="description">See the description of this subfield in Appendix A: <em><a href="http://www.loc.gov/marc/holdings/echdcntf.html">Control Subfields</a></em>.
+        </div>
+   </div>
+      <hr>
+      <h3>INPUT CONVENTIONS</h3>
+      <div class="description2"><strong>Punctuation</strong> - Field 843 ends with a period unless another mark of punctuation is present. If the final
+                     subfield is subfield $7, the mark of punctuation precedes that subfield.
+      </div>
+      <div class="description2"><strong>Embedded Holdings Information</strong> - When holdings information is embedded in a MARC bibliographic record which contains a
+                     field 533 (Reproduction Note), field 843 may be used to relate reproduction information
+                     to the holdings information.
+      </div>
+      <hr>
+      <h3>CONTENT DESIGNATOR HISTORY</h3>
+      <div class="font_small">
+         <em>$5 - Institution to which field applies [NEW, 2007]</em>
+         
+         <em>$7 - Fixed-length data elements of reproduction</em><br>
+         <em>k - Continuously updated [NEW, 2001]</em></div>
+      <hr>
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+         <tr valign="bottom">
+            <td>
+               <div class="head-nav"><a href="http://www.loc.gov/">Library of
+                     								Congress</a> &gt;&gt; <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt; <a href="http://www.loc.gov/marc/holdings/">Holdings</a> 
+                  							&gt;&gt;    <a href="http://www.loc.gov/marc/holdings/hd5xx84x.html">5XX, 84X</a>  &gt;&gt; <strong>843</strong></div> (03/10/2008) 
+            </td>
+            <td align="right"><a href="mailto:ndmso@loc.gov">Contact Us</a></td>
+         </tr>
+      </table>
+   <script type='text/javascript' src='http://cdn.loc.gov/js/global/metrics/sc/v25.2/2.0/s_code.js'></script></body>
+</html>

@@ -1,0 +1,249 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+      <title>MARC 21 Format for Authority Data: 373:
+         Associated Group (Network Development and MARC Standards
+         Office, Library of Congress)
+      </title>
+      <meta name="description"
+            content="This field contains the  (Network Development and MARC Standards Office, Library of Congress)" />
+      <meta name="keywords" content="marc, marc21, marc standards" />
+      <meta name="author"
+            content="Library of Congress Network Development and MARC Standards Office" />
+      <link href="../styles.css" rel="stylesheet" type="text/css" />
+      <link href="../print.css" rel="stylesheet" type="text/css" media="print" />
+   </head>
+   <body class="full">
+      <div class="head-nav">
+         <div class="noprint"><a href="http://www.loc.gov/">Library of Congress</a> &gt;&gt; <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt; 
+            
+            <a href="http://www.loc.gov/marc/authority/">Authority</a> &gt;&gt; 
+            <span class="caps"><a href="http://www.loc.gov/marc/authority/ad1xx3xx.html">1XX,3XX</a> &gt;&gt;
+               <strong>373</strong></span></div>
+      </div>
+      <hr /><a name="skip_menu"></a><h1><span>373</span> - Associated Group (R)
+      </h1>
+      <hr />
+      <div class="formatname">MARC 21 Authority - full</div>
+      <div class="datename">September 2011</div>
+      <hr />
+      <table width="100%" class="indicators">
+         <tr>
+            <th width="45%"> First Indicator </th>
+            <th width="45%"> Second Indicator </th>
+         </tr>
+         <tr>
+            <td><em>Undefined</em><br /><span># - Undefined</span><br /><br /></td>
+            <td><em>Undefined</em><br /><span># - Undefined</span><br /><br /></td>
+         </tr>
+      </table>
+      <hr />
+      <table width="100%" class="subfields">
+         <tr>
+            <td width="50%"></td>
+            <td width="50%"></td>
+         </tr>
+         <tr>
+            <th colspan="2">Subfield Codes</th>
+         </tr>
+         <tr>
+            <td>
+               <ul class="nomark">
+                  <li>$a - Associated group (R)</li>
+                  <li>$s - Start period (NR)</li>
+                  <li>$t - End period (NR)</li>
+                  <li>$u - Uniform Resource Identifier (R)</li>
+                  <li>$v - Source of information (R)</li>
+               </ul>
+            </td>
+            <td>
+               <ul class="nomark">
+                  <li>$0 - Record control number (R)</li>
+                  <li>$2 - Source of term (NR)</li>
+                  <li>$6 - Linkage (NR)</li>
+                  <li>$8 - Field link and sequence number (R)</li>
+               </ul>
+            </td>
+         </tr>
+      </table>
+      <hr />
+      <h3>FIELD DEFINITION AND SCOPE</h3>
+      <div class="definition">
+         <div>
+            <p>Information about a group, institution, association, etc., that is associated with the entity 
+               				in the 1XX.  This can also be a group with which a person is or has been affiliated, 
+               				including dates of affiliation.
+            </p>
+         </div>
+         <div>
+            <p>The field is repeated if the person has multiple affiliations for different time periods.</p>
+         </div>
+      </div>
+      <hr />
+      <h3>GUIDELINES FOR APPLYING CONTENT DESIGNATORS</h3>
+      <div class="guidelines">
+         <div>
+            <p></p>
+         </div>
+         <h4><span class="box">â </span> INDICATORS
+         </h4>
+         <div class="indicators">
+            <ul>
+               <li>Both indicator positions are undefined; each contains a blank (#).</li>
+            </ul>
+         </div>
+         <h4><span class="box">â </span> SUBFIELD CODES
+         </h4>
+         <div class="subfields">
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$a - Associated group</strong> 
+                  </p>
+                  <div>
+                     <p>A group that is associated with the entity in the 1XX or 
+                        						with which the entity is affiliated or has been affiliated
+                        						through employment, membership, cultural identity, etc.
+                     </p>
+                  </div>
+                  <div class="example">
+                     <table>
+                        <tr>
+                           <td>100</td>
+                           <td colspan="9">1#$aAshton, John</td>
+                        </tr>
+                        <tr>
+                           <td><strong>373</strong></td>
+                           <td colspan="9"><strong>##</strong><strong>$a</strong>Faculty of Biological Science, Leeds University<strong>$s</strong>2000<strong>$t</strong>2005
+                           </td>
+                        </tr>
+                        <tr>
+                           <td><strong>373</strong></td>
+                           <td colspan="9"><strong>##</strong><strong>$a</strong>Faculty of Life Science, Manchester University<strong>$s</strong>2005
+                           </td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+            </div>
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$s - Start period</strong> 
+                  </p>
+                  <div>
+                     <p>The starting date of the association.
+                     </p>
+                  </div>
+               </div>
+            </div>
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$t - End period</strong> 
+                  </p>
+                  <div>
+                     <p>The end date of the association.
+                     </p>
+                  </div>
+               </div>
+            </div>
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$u - Uniform Resource Identifier</strong> 
+                  </p>
+                  <div>
+                     <p>Uniform Resource Identifier (URI), for example a URL or URN, which provides electronic
+                        						access data in a standard syntax. This data can be used for automated access to an
+                        						electronic item using one of the Internet protocols.
+                     </p>
+                  </div>
+                  <div>
+                     <p>In field 373, subfield $u is used to record the location of the source
+						of information about associated groups available
+                        						electronically.
+                     </p>
+                  </div>
+               </div>
+            </div>
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$v - Source of information</strong> 
+                  </p>
+                  <div>
+                     <p>Source where the information recorded in field 373 was found if not through a URI.</p>
+                  </div>
+               </div>
+            </div>
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$0 - Record control number</strong> 
+                  </p>
+                  <div>
+                     <p>See description of this subfield in Appendix A: <em><a href="http://www.loc.gov/marc/authority/ecadcntf.html">Control Subfields</a></em>.
+                     </p>
+                  </div>
+               </div>
+            </div>
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$2 - Source of term</strong> 
+                  </p>
+                  <div>
+                     <p>Specifies a code that identifies the source of a controlled vocabulary for affiliation
+						terms in $a.</p>
+                  </div>
+                  <div>
+                     <p>Code from: <em><a href="http://www.loc.gov/standards/sourcelist/name-title.html">Name and Title 
+                              							Authority Source Codes</a></em>.
+                     </p>
+                  </div>
+               </div>
+            </div>
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$6 - Linkage</strong> 
+                  </p>
+                  <div>
+                     <p>See description of this subfield in Appendix A: <em><a href="http://www.loc.gov/marc/authority/ecadcntf.html">Control Subfields</a></em>.
+                     </p>
+                  </div>
+               </div>
+            </div>
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$8 - Field link and sequence number</strong> 
+                  </p>
+                  <div>
+                     <p>See description of this subfield in Appendix A: <em><a href="http://www.loc.gov/marc/authority/ecadcntf.html">Control Subfields</a></em>.
+                     </p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <hr />
+      <h3>CONTENT DESIGNATOR HISTORY</h3>
+      <div class="history">
+         <div class="historyField">
+            <div><em>Field 373 - Associated Group [RENAMED, 2011] [REDEFINED, 2011]</em><div class="spaceAfter"><span><span>Prior to 2011 was named "Affiliation".</span><br /></span></div>
+            </div>
+         </div>
+         <div class="historySubfield">
+            <div><em>$a - Associated group [RENAMED, 2011] [REDEFINED, 2011]</em><div class="subfieldHistoryDsc">
+                  <p>Prior to 2011 was named "Affiliation".</p>
+               </div>
+            </div>
+         </div>
+      </div>
+      <hr class="clear" />
+      <div class="head-nav">
+         <div class="noprint"><a href="http://www.loc.gov/">Library of Congress</a> &gt;&gt; <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt; 
+            
+            <a href="http://www.loc.gov/marc/authority/">Authority</a> &gt;&gt; 
+            <span class="caps"><a href="http://www.loc.gov/marc/authority/ad1xx3xx.html">1XX,3XX</a> &gt;&gt;
+               <strong>373</strong></span></div>
+      </div>
+      <div class="left"><span class="noprint">(09/01/2011)</span></div>
+      <div class="right"><a href="mailto:ndmso@loc.gov" class="noprint">Contact Us</a></div>
+   <script type='text/javascript' src='http://cdn.loc.gov/js/global/metrics/sc/v25.2/2.0/s_code.js'></script></body>
+</html>

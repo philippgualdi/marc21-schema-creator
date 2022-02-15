@@ -1,0 +1,40 @@
+{
+  "type": "object",
+  "properties": {
+    "leader": {
+      "type": "string"
+    },
+    "fields": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "001": {
+            "description": "Control Number",
+            "type": "string"
+          },
+          "003": {
+            "description": "Control Number Identifier",
+            "type": "string"
+          },
+          "005": {
+            "description": "Date and Time of Latest Transaction",
+            "type": "string"
+          },
+          "006": {
+            "description": "Fixed-Length Data Elements-Additional Material Characteristics",
+            "type": "string"
+          },
+          "007": {
+            "description": "Physical Description Fixed Field-General Information",
+            "type": "string"
+          },
+          "008": {
+            "description": "Fixed-Length Data Elements",
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

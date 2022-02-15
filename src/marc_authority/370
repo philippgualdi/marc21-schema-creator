@@ -1,0 +1,674 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+<head>
+  <meta http-equiv="Content-Type" content=
+  "text/html; charset=utf-8">
+
+  <title>MARC 21 Format for Authority Data: 370: Associated Place
+  (Network Development and MARC Standards Office, Library of
+  Congress)</title>
+  <meta http-equiv="Content-Type" content=
+  "text/html; charset=utf-8">
+  <meta name="description" content=
+  "This field contains the (Network Development and MARC Standards Office, Library of Congress)">
+  <meta name="keywords" content="marc, marc21, marc standards">
+  <meta name="author" content=
+  "Library of Congress Network Development and MARC Standards Office">
+  <link href="update10-stylesheet.css" rel="stylesheet" type=
+  "text/css">
+</head>
+
+<body>
+  <div class="head-nav">
+    <a href="http://www.loc.gov/">Library of Congress</a>
+    &gt;&gt; <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt;
+    <a href="http://www.loc.gov/marc/authority/">Authority</a>
+    &gt;&gt; <a href=
+    "http://www.loc.gov/marc/authority/ad1xx3xx.html">1XX,3XX</a>
+    &gt;&gt; <strong>370</strong>
+  </div>
+  <hr>
+  <a name="skip_menu" id="skip_menu"></a>
+
+  <h1>370 - Associated Place (R)</h1>
+  <hr>
+
+  <div class="formatname">
+    MARC 21 Authority - Full
+  </div>
+
+  <div class="datename">
+    October 2009
+  </div>
+  <hr>
+
+  <table width="100%">
+    <tr valign="top">
+      <td width="45%"><strong>First Indicator</strong><br>
+      <em>Undefined</em><br>
+      # - Undefined<br>
+      <br></td>
+
+      <td width="45%"><strong>Second Indicator</strong><br>
+      <em>Undefined</em><br>
+      # - Undefined<br>
+      <br></td>
+    </tr>
+  </table>
+  <hr>
+
+  <table width="100%">
+    <tr valign="top">
+      <td valign="top" width="50%" align="left"></td>
+
+      <td valign="top" width="50%" align="left"></td>
+    </tr>
+
+    <tr valign="top">
+      <td colspan="2"><strong>Subfield Codes</strong><br></td>
+    </tr>
+
+    <tr valign="top">
+      <td colspan="1">$a - Place of birth (NR)<br>
+      $b - Place of death (NR)<br>
+      $c - Associated country (R)<br>
+      $e - Place of residence/headquarters (R)<br>
+      $f - Other associated place (R)<br>
+      $g - Place of origin of work (R)<br>
+      $s - Start period (NR)<br></td>
+
+      <td colspan="1">$t - End period (NR)<br>
+      $u - Uniform Resource Identifier (R)<br>
+      $v - Source of information (R)<br>
+      $0 - Record control number (R)<br>
+      $2 - Source of term (NR)<br>
+      $6 - Linkage (NR)<br>
+      $8 - Field link and sequence number (R)<br></td>
+    </tr>
+  </table>
+  <hr>
+
+  <h3>FIELD DEFINITION AND SCOPE</h3>
+
+  <p>A town, city, province, state, and/or country associated
+  with persons, corporate bodies, families, works, and
+  expressions.</p>
+
+  <p><em>For a person</em>: the town, city, province, state,
+  and/or country associated with a person's place of birth,
+  death, residence, and/or identity.</p>
+
+  <p><em>For a corporate body</em>: a significant location
+  associated with a corporate body (e.g., location of a
+  conference, etc., location of the headquarters of an
+  organization).</p>
+
+  <p><em>For a family</em>: a place where the family resides or
+  has resided or has some connection.</p>
+
+  <p><em>For a work or expression</em>: the country or other
+  territorial jurisdiction from which a work or expression
+  originated.</p>
+
+  <p>Field 370 should be repeated when start and end periods in
+  subfields $s and $t pertain to a different associated place. If
+  place data is from a controlled vocabulary, the vocabulary is
+  indicated in subfield $2 (Source of term).</p>
+  <hr>
+
+  <h3>GUIDELINES FOR APPLYING CONTENT DESIGNATORS</h3>
+
+  <h4><span class="box">â </span> INDICATORS</h4>
+
+  <ul>
+    <li>Both indicator positions are undefined; each contains a
+    blank (#).</li>
+  </ul>
+
+  <h4><span class="box">â </span> SUBFIELD CODES</h4>
+
+  <div class="subfield">
+    <strong>$a - Place of birth</strong>
+
+    <div class="description">
+      The town, city, province, state, and/or country in which a
+      person was born. Birth date of the person may be recorded
+      in field 046 (Special coded dates).
+    </div>
+
+    <div class="example">
+      <table width="100%">
+        <tr>
+          <td valign="top" width="5%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="15%" align="left"></td>
+        </tr>
+
+        <tr>
+          <td valign="top" colspan="1" align="left">100</td>
+
+          <td valign="top" colspan="9" align="left">1#$aSinger,
+          Isaac Bashevis,$d1904-1991.</td>
+        </tr>
+
+        <tr>
+          <td valign="top" colspan="1" align="left">
+          <strong>370</strong></td>
+
+          <td valign="top" colspan="9" align="left">
+          <strong>##</strong><strong>$a</strong>Radzimyn,
+          Poland<strong>$b</strong>Surfside, Fla.<br>
+          <em>[born in Radzimyn, Poland; died in Surfside, Fla.]</em></td>
+        </tr>
+      </table>
+    </div>
+  </div>
+
+  <div class="subfield">
+    <strong>$b - Place of death</strong>
+
+    <div class="description">
+      The town, city, province, state, and/or country in which a
+      person died. Death date of the person may be recorded in
+      field 046 (Special coded dates).
+    </div>
+
+    <div class="example">
+      <table width="100%">
+        <tr>
+          <td valign="top" width="5%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="15%" align="left"></td>
+        </tr>
+
+        <tr>
+          <td valign="top" colspan="1" align="left">100</td>
+
+          <td valign="top" colspan="9" align="left">1#$aSinger,
+          Isaac Bashevis,$d1904-1991.</td>
+        </tr>
+
+        <tr>
+          <td valign="top" colspan="1" align="left">
+          <strong>370</strong></td>
+
+          <td valign="top" colspan="9" align="left">
+          <strong>##</strong><strong>$a</strong>Radzimyn,
+          Poland<strong>$b</strong>Surfside, Fla.<br>
+          <em>[born in Radzimyn, Poland; died in Surfside, Fla.]</em></td>
+        </tr>
+      </table>
+    </div>
+  </div>
+
+  <div class="subfield">
+    <strong>$c - Associated country</strong>
+
+    <div class="description">
+      A country with which the person, corporate body, family, or
+      work is identified. Dates that pertain to the country are
+      recorded in subfields $s (Start period) and $t (End
+      period).
+    </div>
+  </div>
+
+  <div class="subfield">
+    <strong>$e - Place of residence/headquarters</strong>
+
+    <div class="description">
+      The town, city, province, state, locale, and/or country in
+      which a person resides or has resided, or an organization
+      has its headquarters or carries out its activities, including the location of a conference. Dates
+      associated with a place of residence/location of
+      headquarters are recorded in subfields $s (Start period)
+      and $t (End period).
+    </div>
+
+    <div class="example">
+      <table width="100%">
+        <tr>
+          <td valign="top" width="5%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="15%" align="left"></td>
+        </tr>
+
+        <tr>
+          <td valign="top" colspan="1" align="left">100</td>
+
+          <td valign="top" colspan="9" align="left">
+          1#$aHemingway, Ernest,$d1899-1961.</td>
+        </tr>
+
+        <tr>
+          <td valign="top" colspan="1" align="left">
+          <strong>370</strong></td>
+
+          <td valign="top" colspan="9" align="left">
+          <strong>##</strong><strong>$a</strong>Oak Park,
+          Ill.<strong>$b</strong>Ketchum,
+          Idaho<strong>$e</strong>Oak Park,
+          Ill.<strong>$e</strong>Toronto,
+          Ont.<strong>$e</strong>Chicago,
+          Ill.<strong>$e</strong>Paris,
+          France<strong>$e</strong>Key West,
+          Fla.<strong>$e</strong>Cuba<strong>$e</strong>Ketchum,
+          Idaho<br>
+          <em>[born in Oak Park, Ill., died in Ketchum, Idaho;
+          lived in Oak Park, Ill.; Toronto, Ont.; Chicago, Ill.;
+          Paris, France; Key West, Fla.; Cuba; Ketchum,
+          Idaho]</em></td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="example">
+      <table width="100%">
+        <tr>
+          <td valign="top" width="5%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="15%" align="left"></td>
+        </tr>
+
+        <tr>
+          <td valign="top" colspan="1" align="left">100</td>
+
+          <td valign="top" colspan="9" align="left">3#$aYan
+          (Family)</td>
+        </tr>
+
+        <tr>
+          <td valign="top" colspan="1" align="left">
+          <strong>370</strong></td>
+
+          <td valign="top" colspan="9" align="left">
+          <strong>##</strong><strong>$e</strong>Pagsanjan,
+          Philippines<br>
+          <em>[family lived in Pagsanjan, Philippines]</em></td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="example">
+      <table width="100%">
+        <tr>
+          <td valign="top" width="5%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="15%" align="left"></td>
+        </tr>
+
+        <tr>
+          <td valign="top" colspan="1" align="left">110</td>
+
+          <td valign="top" colspan="9" align="left">
+          2#$aRepublican Party (Calif.)</td>
+        </tr>
+
+        <tr>
+          <td valign="top" colspan="1" align="left">
+          <strong>370</strong></td>
+
+          <td valign="top" colspan="9" align="left">
+          <strong>##</strong><strong>$e</strong>Calif.</td>
+        </tr>
+      </table>
+    </div>
+  </div>
+
+  <div class="subfield">
+    <strong>$f - Other associated place</strong>
+
+    <div class="description">
+      Other or additional town, city, province, state, and/or
+      country associated with persons, corporate bodies,
+      families, works, and expressions. Dates associated with
+      other place are recorded in subfields $s (Start period) and
+      $t (End period).
+    </div>
+  </div>
+
+  <div class="subfield">
+    <strong>$g - Place of origin of work</strong>
+
+    <div class="description">
+      The country or other territorial jurisdiction from which a
+      work originated. Dates associated with place of origin of
+      work are recorded in subfields $s (Start period) and $t
+      (End period).
+    </div>
+
+    <div class="example">
+      <table width="100%">
+        <tr>
+          <td valign="top" width="5%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="15%" align="left"></td>
+        </tr>
+
+        <tr>
+          <td valign="top" colspan="1" align="left">130</td>
+
+          <td valign="top" colspan="9" align="left">#0$aAdvocate
+          (Boise, Idaho)</td>
+        </tr>
+
+        <tr>
+          <td valign="top" colspan="1" align="left">
+          <strong>370</strong></td>
+
+          <td valign="top" colspan="9" align="left">
+          <strong>##</strong><strong>$g</strong>Boise,Idaho<br>
+          <em>[place of origin of the monthly Advocate]</em></td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="example">
+      <table width="100%">
+        <tr>
+          <td valign="top" width="5%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="15%" align="left"></td>
+        </tr>
+
+        <tr>
+          <td valign="top" colspan="1" align="left">130</td>
+
+          <td valign="top" colspan="9" align="left">#0$aAdvocate
+          (Nairobi, Kenya)</td>
+        </tr>
+
+        <tr>
+          <td valign="top" colspan="1" align="left">
+          <strong>370</strong></td>
+
+          <td valign="top" colspan="9" align="left">
+          <strong>##</strong><strong>$g</strong>Nairobi,
+          Kenya<br>
+          <em>[place of origin of the quarterly Advocate]</em></td>
+        </tr>
+      </table>
+    </div>
+  </div>
+
+  <div class="subfield">
+    <strong>$s - Start period</strong>
+
+    <div class="description">
+      The starting date of association with a particular place by
+      a person, corporate body, family, work, or expression.
+    </div>
+
+    <div class="example">
+      <table width="100%">
+        <tr>
+          <td valign="top" width="5%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="15%" align="left"></td>
+        </tr>
+
+        <tr>
+          <td valign="top" colspan="1" align="left">100</td>
+
+          <td valign="top" colspan="9" align="left">1#$aOndaatje,
+          Michael,$d1943-</td>
+        </tr>
+
+        <tr>
+          <td valign="top" colspan="1" align="left">
+          <strong>370</strong></td>
+
+          <td valign="top" colspan="9" align="left">
+          <strong>##</strong><strong>$a</strong>Colombo, Sri
+          Lanka</td>
+        </tr>
+
+        <tr>
+          <td valign="top" colspan="1" align="left">
+          <strong>370</strong></td>
+
+          <td valign="top" colspan="9" align="left">
+          <strong>##</strong><strong>$e</strong>England<strong>$s</strong>1954<strong>
+          $t</strong>1962</td>
+        </tr>
+
+        <tr>
+          <td valign="top" colspan="1" align="left">
+          <strong>370</strong></td>
+
+          <td valign="top" colspan="9" align="left">
+          <strong>##</strong><strong>$c</strong>Canada<strong>$e</strong>Canada<strong>
+          $s</strong>1962<br>
+          <em>[born in Colombo, Sri Lanka; lived in England from
+          1954-1962; moved to Canada in 1962]</em></td>
+        </tr>
+      </table>
+    </div>
+  </div>
+
+  <div class="subfield">
+    <strong>$t - End period</strong>
+
+    <div class="description">
+      The end date of association with a particular place by a
+      person, corporate body, family, work, or expression.
+    </div>
+  </div>
+
+  <div class="subfield">
+    <strong>$u - Uniform Resource Identifier</strong>
+
+    <div class="description">
+      Uniform Resource Identifier (URI), for example a URL or
+      URN, which provides electronic access data in a standard
+      syntax. This data can be used for automated access to an
+      electronic item using one of the Internet protocols.
+    </div>
+
+    <div class="description2 description">
+      In field 370, subfield $u is used to record the location of
+      the source of information about a place recorded in the
+      field that is accessible electronically.
+    </div>
+  </div>
+
+  <div class="subfield">
+    <strong>$v - Source of information</strong>
+
+    <div class="description">
+      Source where the information recorded in field 370 was
+      found if not through a URI.
+    </div>
+  </div>
+
+  <div class="subfield">
+    <strong>$0 - Record control number</strong>
+
+    <div class="description">
+      See description of this subfield in Appendix A:
+      <em><a href="http://www.loc.gov/marc/authority/ecadcntf.html">
+      Control Subfields</a></em>.
+    </div>
+  </div>
+
+  <div class="subfield">
+    <strong>$2 - Source of term</strong>
+
+    <div class="description">
+      Specifies the source of the controlled vocabulary term for
+      the place in subfields $a, $b, $c, $e, $f, and/or $g.
+      Subfield $2 follows the subfields to which it applies. Code
+      from: <em><a href="http://www.loc.gov/standards/sourcelist/subject.html">Subject Heading and Term Source Codes</a></em>.
+    </div>
+  </div>
+
+  <div class="subfield">
+    <strong>$6 - Linkage</strong>
+
+    <div class="description">
+      See description of this subfield in Appendix A:
+      <em><a href="http://www.loc.gov/marc/authority/ecadcntf.html">
+      Control Subfields</a></em>.
+    </div>
+  </div>
+
+  <div class="subfield">
+    <strong>$8 - Field link and sequence number</strong>
+
+    <div class="description">
+      See description of this subfield in Appendix A:
+      <em><a href="http://www.loc.gov/marc/authority/ecadcntf.html">
+      Control Subfields</a></em>.
+    </div>
+  </div>
+  <hr>
+
+  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr valign="bottom">
+      <td>
+        <div class="head-nav">
+          <a href="http://www.loc.gov/">Library of Congress</a>
+          &gt;&gt; <a href="http://www.loc.gov/marc/">MARC</a>
+          &gt;&gt; <a href=
+          "http://www.loc.gov/marc/authority/">Authority</a>
+          &gt;&gt; <a href=
+          "http://www.loc.gov/marc/authority/ad1xx3xx.html">1XX,3XX</a>
+          &gt;&gt; <strong>370</strong>
+        </div>(11/12/2009)
+      </td>
+
+      <td align="right"><a href="mailto:ndmso@loc.gov">Contact
+      Us</a></td>
+    </tr>
+  </table>
+<script type='text/javascript' src='http://cdn.loc.gov/js/global/metrics/sc/v25.2/2.0/s_code.js'></script></body>
+</html>
