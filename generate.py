@@ -35,7 +35,7 @@ def get_indicator(position, field):
 
     indicator = indicators[position]
     if indicator['name'] == 'Undefined':
-        return {'re': '.'}
+        return {'name': 'Undefined', "values": {"_": "Undefined"}}
 
     indicator['name'] = clean_name(indicator['name'])
 
@@ -67,7 +67,7 @@ def get_indicator(position, field):
             set(indicator.get('values', {}).keys()) | set('_')
         ).replace('#', '_'))
     else:
-        return {'re': '.'}
+        return {'name': 'Undefined', "values": {"_": "Undefined"}}
 
     return indicator
 

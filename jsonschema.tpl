@@ -3,6 +3,7 @@
     {%- set indicator2 = get_indicator(2, field) -%}
 
     "type":"object",
+    "additionalProperties":false,
     "properties": {
     {%- if indicator1.get('name') %}
         "ind1": {
@@ -29,18 +30,18 @@
     {%- set subfields = field.get('subfields') -%}
     {%- if subfields %}
         "subfields": {
-            "type":"array" ,
-            "items": {
-                "type": "object",
-                "additionalProperties":false,
-                "properties":{
-                {%- for code, subfield in subfields.items() %}
-                    "{{ code }}": {
-                        "description": "{{ subfield.name }}",
+            "type":"object" ,
+            "additionalProperties":false,
+            "properties":{
+            {%- for code, subfield in subfields.items() %}
+                "{{ code }}": {
+                    "description": "{{ subfield.name }}",
+                    "type": "array",
+                    "items": {
                         "type": "string"
-                    }{{ ',' if not loop.last }}
-                {%- endfor %}
-                }
+                    }
+                }{{ ',' if not loop.last }}
+            {%- endfor %}
             }
         }
     {%- endif %}
@@ -64,7 +65,7 @@
                     "maxItems": 1,
                 {% endif%}
                     "items": {
-                        {{- render_object(field)|indent(20) }}
+                        {{ render_object(field)|indent(20) }}
                     }
                 }{{ ',' if not loop.last }}
             {%- else %}
